@@ -3,7 +3,9 @@ function paragraphSelector() {
   return $('p')
 }
 
-function lastImageSelector() {}
+function lastImageSelector() {
+  $('img:last')
+}
 function ninjaBabySelector() {}
 function divSelector() {}
 function firstListItem() {}

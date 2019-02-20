@@ -4,8 +4,10 @@ function paragraphSelector() {
 }
 
 function lastImageSelector() {
-  $('img:last')
+  return $('img:last')
 }
-function ninjaBabySelector() {}
+function ninjaBabySelector() {
+  return $('.baby-ninja')
+}
 function divSelector() {}
 function firstListItem() {}
